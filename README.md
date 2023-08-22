@@ -10,7 +10,7 @@
 
 - styled-component
 - Recoil, React-Query 사용법 다시 찾아보고 학습하기
-- 
+- Next13은 getServerSideProps 대신 async await함수 컴포넌트 안에서 데이터 페칭 -> 연습해보기
 
 ## etc
 
