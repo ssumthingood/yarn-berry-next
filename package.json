@@ -9,13 +9,27 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-query": "^4.33.0",
     "@types/node": "20.5.1",
     "@types/react": "18.2.20",
     "@types/react-dom": "18.2.7",
+    "@types/react-query": "^1.2.9",
     "next": "13.4.19",
     "react": "18.2.0",
+    "react-cookie": "^6.1.0",
     "react-dom": "18.2.0",
+    "react-query": "^3.39.3",
+    "recoil": "^0.7.7",
+    "styled-component": "^2.8.0",
+    "styled-reset": "^4.5.1",
     "typescript": "5.1.6"
   },
-  "packageManager": "yarn@3.6.2"
+  "packageManager": "yarn@3.6.2",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@types/styled-components": "^5.1.26",
+    "babel-loader": "latest",
+    "babel-plugin-styled-components": "^2.1.4"
+  }
 }
