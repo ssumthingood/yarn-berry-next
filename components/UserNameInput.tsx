@@ -13,8 +13,8 @@ const UserNameInput = ()=>{
 
     return(
         <>
-            <p>Hello,{user.name}</p>
-    <input
+        <p>Hello,{user.name}</p>
+        <input
         type="text"
         name="name"
         id="input_name"
