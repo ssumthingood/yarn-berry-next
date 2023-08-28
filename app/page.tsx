@@ -16,6 +16,9 @@ const Home=()=> {
       <H>
     Next app
       </H>
+      <p>
+      {process.env.NEXT_PUBLIC_MY_NAME}
+      </p>
     <Chart/>
     </main>
   )
