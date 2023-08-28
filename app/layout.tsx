@@ -1,6 +1,8 @@
 import type { Metadata } from 'next'
 import Recoil from "@/recoil";
 import ReactQuery from "@/react-query";
+import StyledComponentsRegistry from '@/lib/registry';
+// import GlobalStyles from '@/styles/GlobalStyles';
 import React from "react";
 
 export const metadata: Metadata = {
@@ -17,10 +19,13 @@ const RootLayout=({
     <html lang="en">
       <body>
       <Recoil><ReactQuery>
+        <StyledComponentsRegistry>
+          {/* <GlobalStyles/> */}
       <nav>
-      Main layout
+        Main layout
       </nav>
       {children}
+      </StyledComponentsRegistry>
       </ReactQuery>
       </Recoil>
       </body>
