@@ -1,3 +1,5 @@
+# 프로젝트 gitlab으로 이전
+
 # boilerplate with
 
 - yarn berry
@@ -5,12 +7,14 @@
 - nextJS 13
 - Recoil
 - React-Query
+- Next-Auth(Naver)
+- styled-component
 
 ## todo
 
-- styled-component
 - Recoil, React-Query 사용법 다시 찾아보고 학습하기
 - Next13은 getServerSideProps 대신 async await함수 컴포넌트 안에서 데이터 페칭 -> 연습해보기
+- styled-component는 클라이언트 사이드에서만 가능한가?? 서버사이드 렌더링 구현 방법 찾기
 
 ## etc
 
