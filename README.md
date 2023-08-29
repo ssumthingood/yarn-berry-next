@@ -1,4 +1,4 @@
-# 프로젝트 gitlab으로 이전
+# 프로젝트 gitlab으로 이전_업뎃 안됨
 
 # boilerplate with
 
